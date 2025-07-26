@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Click & Tap | Tech Store</title>
+  <style>
+    * { margin: 0; box-sizing: border-box; }
+    body {
+      background-color: #0d0d1a;
+      color: white;
+      font-family: 'Orbitron', sans-serif;
+    }
+    header {
+      background-color: #14142b;
+      text-align: center;
+      padding: 20px;
+    }
+    header img {
+      max-width: 200px;
+      filter: drop-shadow(0 0 10px #ff00ff);
+    }
+    h1 {
+      color: #ff00ff;
+      margin: 10px 0;
+      text-shadow: 0 0 10px #ff00ff;
+    }
+    .product-section {
+      padding: 40px 20px;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 30px;
+    }
+    .product-card {
+      background-color: #1a1a2e;
+      border-radius: 15px;
+      padding: 20px;
+      box-shadow: 0 0 15px rgba(255, 0, 255, 0.2);
+      transition: transform 0.3s, box-shadow 0.3s;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .product-card:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 25px rgba(255, 0, 255, 0.4);
+    }
+    .product-card a {
+      text-decoration: none;
+      color: inherit;
+      display: block;
+      width: 100%;
+      height: 100%;
+    }
+    .product-card img {
+      max-width: 100%;
+      border-radius: 8px;
+    }
+    .product-card h3 {
+      color: #ff00ff;
+      margin: 15px 0 10px;
+      text-align: center;
+    }
+    .product-card p {
+      margin: 5px 0;
+    }
+    .footer {
+      text-align: center;
+      padding: 20px;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="https://i.postimg.cc/fJvyyS0j/photo-2025-07-02-20-05-25.jpg" alt="Click & Tap Logo">
+    <h1>Click & Tap</h1>
+    <p>Pick your best gear here!</p>
+  </header>
+
+  <div class="product-section">
+    <div class="product-card">
+    <img src="https://i.ibb.co/Q36T1ZQx/photo-2025-07-26-16-58-55.jpg" alt="photo-2025-07-26-16-58-55" >
+        <h3>Attack Shark X11</h3>
+        <h4>White</h4>
+        <p>Price $25</p>
+      </a>
+      </div>
+      <div class="product-card">
+       <img src="https://i.ibb.co/N2VXh71b/photo-2025-07-26-16-59-04.jpg" alt="photo-2025-07-26-16-59-04" >
+       <h3>Attack Shark X11 </h3>
+       <h4>Black</h4>
+       <p>$25</p>
+      </div>
+
+      <div class="product-card">
+      <img src="https://i.ibb.co/prr0Wv9t/photo-2025-07-26-17-05-52.jpg" alt="photo-2025-07-26-17-05-52">
+        <h3>Mouse M12</h3>
+        <p>Price $12</p>
+      </div>
+    
+
+    <!-- Duplicate and customize more product-card blocks as needed -->
+  </div>
+
+
+
+</body>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF‑8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Click & Tap | Tech Store</title>
+  <style>
+    * {
+      margin: 0;
+      box-sizing: border-box;
+    }
+    body {
+      background-color: #0d0d1a;
+      color: white;
+      font-family: 'Orbitron', sans-serif;
+    }
+    header {
+      background-color: #14142b;
+      text-align: center;
+      padding: 20px;
+    }
+    header img {
+      max-width: 200px;
+      filter: drop-shadow(0 0 10px #ff00ff);
+    }
+    h1 {
+      color: #ff00ff;
+      margin: 10px 0;
+      text-shadow: 0 0 10px #ff00ff;
+    }
+    .product-section {
+      padding: 40px 20px;
+      display: grid;
+      /* responsive grid using auto-fill + minmax */
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 30px;
+    }
+    .product-card {
+      background-color: #1a1a2e;
+      border-radius: 15px;
+      padding: 20px;
+      box-shadow: 0 0 15px rgba(255, 0, 255, 0.2);
+      transition: transform 0.3s, box-shadow 0.3s;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .product-card:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 25px rgba(255, 0, 255, 0.4);
+    }
+    .product-card img {
+      max-width: 100%;
+      border-radius: 8px;
+    }
+    .product-card h3 {
+      color: #ff00ff;
+      margin: 15px 0 10px;
+    }
+    .product-card p {
+      margin: 5px 0;
+    }
+    .footer {
+      text-align: center;
+      padding: 20px;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://i.postimg.cc/fJvyyS0j/photo-2025-07-02-20-05-25.jpg" alt="Click & Tap Logo">
+    <h1>Click & Tap</h1>
+    <p>Pick your best gear here!</p>
+  </header>
+  <div class="product-card">
+  <img src="https://i.ibb.co/DfsJLbWz/photo-2025-07-26-17-07-58.jpg" alt="photo-2025-07-26-17-07-58">
+  <h3>Monitor Light Bar</h3>
+  <p>Price $16</p>
+  </div>
+  </body>

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF‑8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Click & Tap | Tech Store</title>
+  <style>
+    * { margin: 0; box-sizing: border-box; }
+    body {
+      background-color: #0d0d1a;
+      color: white;
+      font-family: 'Orbitron', sans-serif;
+    }
+    header {
+      position: relative;
+      background-color: #14142b;
+      text-align: center;
+      padding: 20px;
+    }
+    header img {
+      max-width: 200px;
+      filter: drop-shadow(0 0 10px #ff00ff);
+    }
+    h1 {
+      color: #ff00ff;
+      margin: 10px 0;
+      text-shadow: 0 0 10px #ff00ff;
+    }
+    .telegram-channel {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      font-size: 1rem;
+      text-decoration: none;
+      color: #00bcd4;
+      background-color: rgba(255, 255, 255, 0.1);
+      padding: 8px 12px;
+      border-radius: 8px;
+      transition: background-color 0.2s;
+    }
+    .telegram-channel:hover {
+      background-color: rgba(255, 255, 255, 0.2);
+    }
+    .product-section {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 30px;
+      padding: 40px 20px;
+    }
+    .product-card {
+      background-color: #1a1a2e;
+      border-radius: 15px;
+      padding: 20px;
+      box-shadow: 0 0 15px rgba(255, 0, 255, 0.2);
+      transition: transform 0.3s, box-shadow 0.3s;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .product-card:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 25px rgba(255, 0, 255, 0.4);
+    }
+    .product-card h3 {
+      color: #ff00ff;
+      margin-top: 15px;
+    }
+    .footer {
+      text-align: center;
+      padding: 20px;
+      color: #888;
+    }
+    .telegram-link {
+  color: #00bfff;
+  text-decoration: none;
+  font-size: 1.1rem;
+    }
+    .telegram-link:hover {
+  text-decoration: underline;
+  }
+
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://i.postimg.cc/fJvyyS0j/photo-2025-07-02-20-05-25.jpg" alt="Click & Tap Logo">
+    <h1>Click & Tap</h1>
+    <p>Pick your best gear here!</p>
+
+    <a href="https://t.me/clickntap1"
+       class="telegram-channel"
+       target="_blank"
+       rel="noopener noreferrer"
+       title="Join our Telegram Channel">
+      Join our Telegram Channel
+    </a>
+  </header>
+
+  <div class="product-section">
+    <article class="product-card">
+      <a href="keyboard.html" title="Mechanical Keyboard">
+        <h3>Mechanical Keyboard</h3>
+      </a>
+    </article>
+    <article class="product-card">
+      <a href="mouse.html" title="Wireless Gaming Mouse">
+        <h3>Wireless Gaming Mouse</h3>
+      </a>
+    </article>
+    <article class="product-card">
+      <a href="monitorlight.html" title="Monitor Light Bar">
+        <h3>Monitor Light Bar</h3>
+      </a>
+    </article>
+    <article class="product-card">
+      <a href="mousepad.html" title="Mouse Pad">
+        <h3>Mouse Pad</h3>
+      </a>
+    </article>
+  </div>
+
+  <div class="footer">
+  <p>&copy; Click & Tap. All rights reserved.</p>
+  <p>
+    <a class="telegram-link" href="https://t.me/sunhong1" target="_blank" rel="noopener noreferrer">
+      🔗 Contact me on Telegram
+    </a>
+  </p>
+</div>
+
+</body>
+</html>
